@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
@@ -18,10 +19,18 @@
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
             <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">HOME</a>
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="collapse navbar-collapse collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                    <div class="dropdown">
+                        <li class="nav-item mx-0 mx-lg-1 dropdown"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle" type="button"  data-toggle="dropdown" href="#portfolio">PORTFOLIO</a>
+                                   <ul class="dropdown-menu">
+        <li><a href="#">Submenu 1-1</a></li>
+        <li><a href="#">Submenu 1-2</a></li>
+        <li><a href="#">Submenu 1-3</a></li>                        
+      </ul>
+                        
                         </li>
+                        </div>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">O MĚ</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">KONTAKT</a>
@@ -63,42 +72,43 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto"  data-toggle="modal" data-target="#portfolioModal0">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Strojírenství<i class="fas fa-plus fa-3x"></i></div>
+                                
                             </div><img class="img-fluid" src="assets/img/portfolio/shutterstock-269021891m_dotyk-400-16x9.jpg" alt="Strojírenství"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">PROGRAMOVÁNÍ<i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/prog.jpg" alt="Programování"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">ŽIVOTOPIS<i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/zivotopis.jpg" alt="Životopis, reference, posudky"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">KONÍČKY<i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/sjJV-qgY20JRKkCTeOOgIQ_b.jpg" alt="Koníčky"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">VZDĚLÁNÍ<i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/obrázek_blog-430x328.png" alt="Vzdělání"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">JAZYKY<i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/images.jpg" alt="Jazyky"/>
                         </div>
                     </div>
@@ -122,7 +132,7 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/shutterstock-269021891m_dotyk-400-16x9.jpg" alt="Strojírenství"/>
+                                    <!-- Portfolio Modal - Image><img class="img-fluid rounded mb-5" src="assets/img/portfolio/shutterstock-269021891m_dotyk-400-16x9.jpg" alt="Strojírenství"/>
                                     <!-- Portfolio Modal - Text-->
                                     
                                      
@@ -191,29 +201,58 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/prog.jpg" alt="Programování"/>
+                                    <!-- Portfolio Modal - Image><img class="img-fluid rounded mb-5" style="height:200px" src="assets/img/portfolio/prog.jpg" alt="Programování"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
-                                    <div id="tabulka" class="list-group" href="#vypocty">
-                                        <button id="tabulka" class="list-group" style="border:1px solid #cecece;" data-dismiss="modal">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group my-auto" href="#it" data-dismiss="modal"> 
+                                    <div id="tabulka" class="list-group my-auto" href="#vypocty">
+                                        <button id="tabulka" class="list-group my-auto" style="border:1px solid #cecece;" data-dismiss="modal">
                                                     
-                                                        <div class="media">
-                                                            <div class="media-left">
+                                                        <div class="media my-auto">
+                                                            <div class="media-left my-auto">
                                                             
-                                                              <img class="media-object" style="width:150px; height:100px" src="assets/img/programovani/1_2XbDtXF4mJyE3ZWpVrGe1Q.jpeg" alt="...">
+                                                              <img class="media-object my-auto" style="width:150px;" src="assets/img/programovani/1_2XbDtXF4mJyE3ZWpVrGe1Q.jpeg" alt="...">
                                                            
                                                             </div>
-                                                            <div class="media-body" style="width:100%">
-                                                            
-                                                            <H4> Frontend </H4>
-                                                            <p>Javascript, React, Bootstrap, Html5, CSS
+                                                            <div class="media-body mr-auto">
+                                                                 
+                                                            <H4 class="my-auto"> Frontend </H4>
+                                                            <H6>Javascript, React, Bootstrap, Html5, CSS
+                                                            </H6>
+                                                            <p>Webovému programování se stále učím. Mám základy javascriptu. Udělala jsem CRUD aplikaci v reactu, kterou se mi podařilo napojit na Backend. Teď se seznamuji s Bootstrapem, ve kterém tvořím tyto stránky.
                                                             </p>
                                                             </div>
+                                                            
                                                         </div>
                                         </button>
                                         </div>
                                         </a>
-                                        <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
+                                        <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#it" data-dismiss="modal"> 
+                                         <div id="tabulka" class="list-group">
+                                         
+                                       
+                                        <button id="tabulka" class="list-group" style="border:1px solid #cecece;" data-dismiss="modal">
+                                                
+                                                    
+                                                        <div class="media ">
+                                                            <div class="media-left my-auto">
+                                                            
+                                                              <img class="media-object my-auto" style="width:150px;" src="assets/img/programovani/Tips-to-master-a-new-programming-language.jpg" alt="...">
+                                                           
+                                                            </div>
+                                                            <div class="media-body" style="width:100%">
+                                                            
+                                                            <H4> Backend </H4>
+                                                            <H6>Python, Django, Java, SpringBoot, PHP, Postresgl, MySql, MongoDB
+                                                            </H6>
+                                                            <p>Backend, tedy databázová část aplikace mi připadá programátorsky zajímavější. Zatím jsem zkoušela vytvořit standardní backendový výstup (Rest API ve formátu JSON) v Pythonu, NodeJS a v Javě přes SpringBoot. Měla jsem zpočátku problémy s hostováním. Nakonec jsem se naučila využívat Heroku. Databáze používám nejraději postgres, zkusila jsem i MySql a MongoDB.
+                                                            </p>
+                                                            </div>
+                                                       </div>
+                                        </button>
+                                              
+                                      </div> 
+                                       </a>  
+                                       <a class="nav-link js-scroll-trigger list-group" href="#it" data-dismiss="modal"> 
                                          <div id="tabulka" class="list-group" href="#vypocty">
                                          
                                        
@@ -222,21 +261,27 @@
                                                     
                                                         <div class="media">
                                                             <div class="media-left">
-                                                            
-                                                              <img class="media-object" style="width:150px; height:100px" src="assets/img/programovani/Tips-to-master-a-new-programming-language.jpg" alt="...">
-                                                           
+                                                             <div class="col-" style="width:200px">
+                                                             
+                                                              <img class="media-object" style="width:150px;" src="assets/img/programovani/download.png" alt="...">
+                                                              <img class="media-object" style="width:150px;" src="assets/img/programovani/download_01.png" alt="...">
+                                                              <img class="media-object" style="width:150px;" src="assets/img/programovani/download_01.jpg" alt="...">
+                                                              <img class="media-object" style="width:150px; height:100px" src="assets/img/programovani/download.jpg" alt="...">
+                                                               </div>
                                                             </div>
                                                             <div class="media-body" style="width:100%">
                                                             
-                                                            <H4> Backend </H4>
-                                                            <p>Python, Java, PHP, Postresgl, MySql, MongoDB
+                                                            <H4> Další </H4>
+                                                            <H6>Git, Linux, VBA, Matlab, C++
+                                                            </H6>
+                                                            <p class="my-auto">Git, nezbytná součást programátorovy praxe. Mám repozitáře na githubu a gitBucket. Linux používám na svém notebooku, protože jsem šetřílek a koupila si notebook bez systému. Docela jsem si na Linux zvykla a mám ho raději než Windows. Během školy jsme na programování používali Matlab (Maticová labolatoř). C++ jsem používala na konzolové aplikace, nástavbové knihovny konkrétně MFC na aplikace pod Windows. VBA jsem často používala ve strojírenství. Je to vynikající nástavba Excelu a dá se v něm vytvořit hodně zajímavých věcí. 
                                                             </p>
                                                             </div>
                                                        </div>
                                         </button>
                                               
                                       </div> 
-                                       </a>         
+                                       </a>          
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -288,7 +333,7 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/sjJV-qgY20JRKkCTeOOgIQ_b.jpg" alt="Koníčky"/>
+                                    <!-- Portfolio Modal - Image><img class="img-fluid rounded mb-5" src="assets/img/portfolio/sjJV-qgY20JRKkCTeOOgIQ_b.jpg" alt="Koníčky"/>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Koníčky jsou super a mám jich hodně, hlavně sport. Momentálně se ale soustředím na hledání práce. Až budu mít čas o svých koníčcích se více rozepíšu</p>
                                     
@@ -316,7 +361,7 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
+                                    <!-- Portfolio Modal - Image><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
@@ -343,7 +388,7 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
+                                    <!-- Portfolio Modal - Image><img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
@@ -397,11 +442,11 @@
                         S pevnostvími výpočty jsem se poprvé setkala na strojní fakultě VŠB-TU Ostrava. Jelikož mě vždy bavila a zajímala fyzika, tak předměty jako statika, dynamika a pružnost patřily mezi mé oblíbené. Rozhodla jsem po ukončení společného studia strojírenství zaměřit na aplikovanou mechaniku. Na škole jsme se vedle klasické teorie a výpočtů dle norem seznámili moderními výpočtovými metodami (FEA simulace) 
                         </p>
                 </div>
-                <div id="tabulka" class="list-group" href="#vypocty">
-                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
+                <div id="tabulka" class="list-group">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.3ds.com/products-services/simulia/products/abaqus/" data-dismiss="modal"> 
                                         <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
                                                     
-                                                        <div class="media" href="#vypocty">
+                                                        <div class="media">
                                                             <div class="media-left my-auto">
                                                             
                                                               <img class="media-object " style="width:150px; " src="assets/img/strojirenstvi/abaqus.png" alt="...">
@@ -421,9 +466,9 @@
                                         </button>
                                         </a>
                </div>
-               <div id="tabulka" class="list-group" href="#vypocty">
-                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
-                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
+               <div id="tabulka" class="list-group" >
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.ansys.com/" data-dismiss="modal"> 
+                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" data-dismiss="modal" >
                                                     
                                                         <div class="media" href="#vypocty">
                                                             <div class="media-left my-auto">
@@ -446,7 +491,7 @@
                                         </a>
             </div>
             <div id="tabulka" class="list-group">
-                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.beta-cae.com/ansa.htm" data-dismiss="modal"> 
                                         <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
                                                     
                                                         <div class="media" href="#vypocty">
@@ -509,7 +554,7 @@
                                                                     <H4> SIEMENS </H4>
                                                                 </div>
                                                                 <div class="col-lg-8 my-auto mr-auto">
-                                                              V Siemensu Turbomachinery Brno jsem pracovala jako výpočtářka v oddělení výzkumu a vývoje v letech 2008-2018. Nastoupila jsem jako konstruktérka, ale vzhledem k mému studijnímu oboru jsem byla přeřarena na pozici výpočtářky. Začala jsem FEA simulace v Ansysu, ale po necelém roce jsem na žádost německé pobočky přešla na ABAQUS. Náplní práce byly jak FEA simulace tak analytické výpočty podle norem.
+                                                              V Siemensu Turbomachinery Brno jsem pracovala jako výpočtářka v oddělení výzkumu a vývoje v letech 2008-2018. Nastoupila jsem jako konstruktérka, ale vzhledem k mému studijnímu oboru jsem byla přeřazena na pozici výpočtářky. Začala jsem FEA simulace v Ansysu, ale po necelém roce jsem na žádost německé pobočky přešla na ABAQUS. Náplní práce byly jak FEA simulace tak analytické výpočty podle norem.
                                                                </div>
                                                               </div>
                                                             </div>
@@ -518,7 +563,7 @@
                                         </a>
             </div>
                                                 <div id="tabulka" class="list-group">
-                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#garret" data-dismiss="modal"> 
                                         <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
                                                     
                                                         <div class="media" href="#vypocty">
@@ -557,6 +602,7 @@
                 </div>
                 <!-- prace Section Content-->
                 <div id="tabulka" class="list-group">
+                    <div id="ibm" class="list-group">
                                     <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
                                         <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
                                                     
@@ -580,10 +626,12 @@
                                                         </div>
                                         </button>
                                         </a>
+                    </div>
             </div>
             
             <div id="tabulka" class="list-group">
-                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
+              <div id="bomar" class="list-group">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="http://www.bomar.cz/" data-dismiss="modal"> 
                                         <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
                                                     
                                                         <div class="media" href="#vypocty">
@@ -607,13 +655,14 @@
                                                         </div>
                                         </button>
                                         </a>
+                    </div>
             </div>
             <div id="tabulka" class="list-group">
                        <div id="siemens" class="list-group">
-                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://new.siemens.com/cz/cs/spolecnost/o-nas/spolecnosti-skupiny-siemens/industrial-turbomachinery.html" data-dismiss="modal"> 
                                         <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
                                                     
-                                                        <div class="media" href="#vypocty">
+                                                        <div class="media" >
                                                             <div class="media-left my-auto">
                                                             
                                                               <img class="media-object " style="width:150px; " src="assets/img/strojirenstvi/csm_siemens-logo_75a93f014a.jpg" alt="...">
@@ -658,6 +707,7 @@
                 </div>
             </div>
             <div id="tabulka" class="list-group">
+                <div id="garrett" class="list-group">
                                     <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#vypocty" data-dismiss="modal"> 
                                         <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
                                                     
@@ -674,7 +724,7 @@
                                                                 </div>
                                                                 <div class="my-auto mr-auto">
                                                                 Do Garrettu jsem nastoupila jako seniorní výpočtářka. Náplní práce byla implemantace Abaqusu. Ta spočívala především v převodu materiálových modelů a automatizaci výpočtového postupu. 
-                                                                         <div class="list-group-item font-weight-bold mr-auto">Převádění materiálových plasicity modelů z Ansysu: </div>
+                                                                         <div class="list-group-item font-weight-bold mr-auto">Převádění materiálových modelů plasicity z Ansysu: </div>
                                                                         <div class="list-group-item font-weight-light">Tento úkol se stal velkým oříškem, jelikož výpočet plasicity je definován jinak v Ansysu a jinak v Abaqusu. Manažeři Garrettu vyžadovali velice sofistikovaný model plasticity, který zahrnoval nejen samozřejmý vliv teploty, ale také vliv rychlosti deformace a creep. Model se stejnými paremetry jako Ansys nebylo možno do standardního Abaqusu(do verze 2020) převést a bylo nezbytné využít tzv. "user subroutine". Tento problém vyřešil až Abaqus 2020
                                                                         </div>
                                                                         <div class="list-group-item font-weight-bold mr-auto">Automatizace standardní úlohy: </div>
@@ -692,6 +742,7 @@
                                                         </div>
                                         </button>
                                         </a>
+                </div>
             </div>
         </section> 
          <!-- strojírenství detail -------------------->
@@ -714,8 +765,245 @@
                         S konstrukcí jsem se seznánila během studia VŠ, kde jsme měli základy strojírenství a následná konstrukční cvičení (návrh převodovky lodního navijáku včetně návrhu ozubení a vykreslení evolventy). Běžně jsme používali autocad. Měli jsme možnost si zapsat různé 3D cady (Catia, ProEngineer, Autodesk, již zaniklý Ideas)
                         </p>
                 </div>
+                <div id="tabulka" class="list-group" >
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.ptc.com/en/products/creo/pro-engineer" data-dismiss="modal"> 
+                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
+                                                    
+                                                        <div class="media" href="#vypocty">
+                                                            <div class="media-left my-auto">
+                                                            
+                                                              <img class="media-object " style="width:150px; " src="assets/img/design/creo.png" alt="...">
+                                                           
+                                                            </div>
+                                                            <div class="media-body my-auto" style="width:100%">
+                                                              <div class="row my-auto">
+                                                                <div class="col-lg-2 my-auto" >
+                                                                    <H4>  PRO ENGINEER </H4>
+                                                                </div>
+                                                                <div class="col-lg-9 my-auto mr-auto">
+                                                            3D CAD. S ProEngineerem jsem pracovala rok v Bomaru. Používali jsme verzi Wildfire2. Práce spočívala v tvorbě a úpravě modelů a sestav pásových pil. Používali jsme "family table" pro verzování. Také jsme využívali modul pro plechy a ohýbání. V Siemensu jsem nastoupila jako konstruktérka, ale pak jsem dělala pouze výpočty. ProEngineer postupně wildfire 4 a Creo jsem používala doplňkově pro úpravu modelů. Navzdory tomu, že jsem byla zaměřena na výpočty, uměla jsem vymodelovat např. profil zkrucované lopatky. 
+                                                            </div>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                        </button>
+                                        </a>
+               </div>
+               <div id="tabulka" class="list-group">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.3ds.com/products-services/catia/" data-dismiss="modal"> 
+                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
+                                                    
+                                                        <div class="media" href="#vypocty">
+                                                            <div class="media-left my-auto">
+                                                            
+                                                              <img class="media-object " style="width:150px; " src="assets/img/design/fe5b73b738379e09220f2a8138a9f6c3.jpg" alt="...">
+                                                           
+                                                            </div>
+                                                            <div class="media-body my-auto" style="width:100%">
+                                                              <div class="row">
+                                                                <div class="col-lg-2 my-auto my-auto" >
+                                                                    <H4> CATIA </H4>
+                                                                </div>
+                                                                <div class="col-lg-9 my-auto mr-auto">
+                                                             Catia na rozdíl od proengineeru má systém modelování založený na spojování ploch. Na škole jsem prošla dvěmi semestry modelování v Catii. Od té doby jsem však v Catii aktivně nepracovala.
+                                                             </div>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                        </button>
+                                        </a>
+               </div>
+                         <div id="tabulka" class="list-group">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.autodesk.cz/products/autocad/overview" data-dismiss="modal"> 
+                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
+                                                    
+                                                        <div class="media" href="#vypocty">
+                                                            <div class="media-left my-auto">
+                                                            
+                                                              <img class="media-object " style="width:150px; " src="assets/img/design/download.jpg" alt="...">
+                                                           
+                                                            </div>
+                                                            <div class="media-body my-auto" style="width:100%">
+                                                              <div class="row">
+                                                                <div class="col-lg-2 my-auto my-auto" >
+                                                                    <H4 class="my-auto"> AUTOCAD </H4>
+                                                                </div>
+                                                                <div class="col-lg-9 my-auto mr-auto">
+                                                             Autocad byl dobrým pomocníkem na škole. Dělala jsem v něm skoro všechny konstrukční projekty. V praxi se stal jen doplňkovým nástrojem. Většinou na čtení a úpravu výkresů. Pracovala jsem aktivně s Autocadem 2000. Novější verze jsem používala pasivně na přeměření nebo pouhému čtení.
+                                                             </div>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                        </button>
+                                        </a>
+               </div>
+
+              <div id="tabulka" class="list-group">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.solidvision.cz/solidworks" data-dismiss="modal"> 
+                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" href="#vypocty" data-dismiss="modal" >
+                                                    
+                                                        <div class="media">
+                                                            <div class="media-left my-auto">
+                                                            
+                                                              <img class="media-object " style="width:150px; " src="assets/img/design/solidworks-icon-29.jpg" alt="...">
+                                                           
+                                                            </div>
+                                                            <div class="media-body my-auto" style="width:100%">
+                                                              <div class="row">
+                                                                <div class="col-lg-2 my-auto my-auto" >
+                                                                    <H4> SOLIDWORKS </H4>
+                                                                </div>
+                                                                <div class="col-lg-9 my-auto mr-auto">
+                                                            Solidworks jsem si kdysi stáhla pirátsky jen tak pro zajímavost. Zkoušela jsem si v něm projít základní tutoriál. Ze softwaru jsem měla dobrý pocit a dokázala bych si představit v tomto softwaru pracovat.
+                                                            </div>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                        </button>
+                                        </a>
+               </div>
+                <div id="tabulka" class="list-group">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" target=_blank href="https://www.plm.automation.siemens.com/global/en/products/nx" data-dismiss="modal"> 
+                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" data-dismiss="modal" >
+                                                    
+                                                        <div class="media">
+                                                            <div class="media-left my-auto">
+                                                            
+                                                              <img class="media-object " style="width:150px; " src="assets/img/design/nx.jpg" alt="...">
+                                                           
+                                                            </div>
+                                                            <div class="media-body my-auto" style="width:100%">
+                                                              <div class="row">
+                                                                <div class="col-lg-2 my-auto my-auto" >
+                                                                    <H4> UNIGRAPHICS NX </H4>
+                                                                </div>
+                                                                <div class="col-lg-9 my-auto mr-auto">
+                                                          Také průzkum NX je mým čistě soukromým zájmem. Na mém pracovišti v Siemensu se pokoušeli o zavedení tohoto systému, ale od záměru sešlo. Upřímně se tomě ani nedivím. Při zběžném průzkumu a odzkoušení základních funkcionalit jsem se softwarem spokojená nebyla. Uživaltelsky nepřehledný a rovněž modelování bylo zbytečně komplikované a funkčně kostrbaté. Tento průzkum jsem dělala v roce 2012, takže je možné, že novější verze jsou na tom lépe. Nicméně dosud ani všechny pobočky Siemensu v NX nepracují a jedním z důvodů bude pravděpodobně nevalná kvalita tohoto systému minimálně po stránce 3D modelování.
+                                                            </div>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                        </button>
+                                        </a>
+               </div>
+                               <div id="tabulka" class="list-group">
+                                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger list-group" href="#bomar" data-dismiss="modal"> 
+                                        <button id="tabulka" class="list-group js-scroll-trigger" style="border:1px solid #cecece;" data-dismiss="modal" >
+                                                    
+                                                        <div class="media">
+                                                            <div class="media-left my-auto">
+                                                            
+                                                              <img class="media-object " style="width:150px; " src="assets/img/prace/images.png" alt="...">
+                                                           
+                                                            </div>
+                                                            <div class="media-body my-auto" style="width:100%">
+                                                              <div class="row">
+                                                                <div class="col-lg-2 my-auto my-auto" >
+                                                                    <H4> BOMAR </H4>
+                                                                </div>
+                                                                <div class="col-lg-9 my-auto mr-auto">
+                                                          Bomar byl můj první zaměstnavatel ve strojírenství, pracovala jsem na pozici konstruktérky. Produktem byly pásové pily a řezací centra. Pracovali jsme v pro Engineeru.
+                                                          </div>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                        </button>
+                                        </a>
+               </div>
+        </section>
+        <section class="page-section bg-primary text-white mb-0" id="it">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">PROGRAMOVÁNÍ</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                 <div class="row">
+                    
+                        <div class="col-lg-5 ml-auto">
+                        <p class="pre-wrap lead">
+                        Patřím již do generace, kterou počítače provázejí od dětství. Vše začalo hraním her u kamarádů. Na základní škole jsem hodila do počítačvého kroužku, kde jsem se naučila základy algoritmizace a fungování počítačů (podmínky, cykly, datové typy, funkce). V období 10-12 let jsem se občas bavila programováním Atari podle příručky. 
+                        </p>
+                        <p class="pre-wrap lead">
+                        Na střední škole byla výuka počítačů pro mě nezáživná. Učili jsme se vytvořit, kopírovat a mazat adresáře v DOSu a psát v T9. 
+                        </p>
+                        
+                        <p class="pre-wrap lead">
+                        Až na vysoké škole, po seznámení se s možnostmi konstrukčních a simulačních programů se můj zájem o informatiku a programováním znovu probudil. Velkou záhadou pro mě bylo, jak je možné naprogramovat tak rozsáhlou aplikaci jako je Word, Excel nebo Autocad a při tom dokázat aby se nepomíchaly proměnné. Tato má přirozená změdavost a touha po poznání mě vedla ke studiu moderních metod programování a programovacích jazyků, i když to nebylo náplní mého studia. Začala jsem s C++ a konzolovými aplikacemi. 
+                        </p>
+                        </div>
+                        <div class="col-lg-5 mr-auto">
+                        <p class="pre-wrap lead">
+                        Asi největším úspěchem pro mě by funkční řešič sudoku. Konzolové aplikace mi přestaly stačit a pokročila jsem dále ve výjoji aplikací pro Windows. Pro tento vývoj jsem použila knihovnu MFC. Naučila jsem se pracovat s událostmi, inicivat dialogy a předávat data zpět aplikaci. Taky interakvivita v okně aplikace byla pro mě novinkou a považovala jsem to za velký úspěch. Tyto částečné úspěchy a pravděpodobně dobře udělaný nábor firmy <a class="text-white" href="#ibm">IBM</a> na škole mě přivedly k mé prní práci, která byla právě v IT oboru. Práce server operátorky mi však připadla příliš jednotvárná a rozhodla jsem se vrátit k vystudovanému strojírenství konkrétně <a class="text-white" href="#design">designu</a>.    
+                        </p>
+                        <p class="pre-wrap lead">
+                        Programování mi bylo dobrým pomocníkem během praxe ve strojírenství, kdy jsem dělala rok <a class="text-white" href="#design">konstruktérku</a> a 12 let <a class="text-white" href="#vypocty">výpočtářku</a>. Využívala jsem <a class="text-white" href="#vba">VBA</a> a  <a class="text-white" href="#python">Python</a>.
+                        </div>
+                </div>
                 
-               
+                
+                <div class="text-center">
+                    <h3 class="d-inline-block text-white">WEBOVÉ PROGRAMOVÁNÍ</h3>
+                </div>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                      
+                        <p class="pre-wrap lead">
+                        Jelikož se těžiště programování hodně posouvá směrem k online aplikacím, zaměřila jsem se během posledního půl roku na tuto oblast.
+                        </p>
+                        
+               <div class="text-center">
+                    <h4 class="d-inline-block text-white">FRONTEND</h4>
+                </div>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+                <div class="row">        
+                        <div class="col-lg-5 ml-auto">
+                        <p class="pre-wrap lead">
+                        Na frontendu jsem začala klasickým html a CSS. Na interaktivitu jsem začala používat prvky javascriptu. Velice se mi zalíbilo prostředí Google Maps API. Bohužel, časem změnili podmínky a proto je nyní API neregistrované. <a class="text-white font-weight-bold" href="http://www.ostravakuncice.cekuj.net/" target=_blank>Můj první web.</a>
+                        </p>
+                        
+                        <p class="pre-wrap lead">
+                        HTML je obyčejným značkováním, programování na webu začíná Javascriptem. Nastudovala jsem si základní syntaxi javascriptu a důležité funkce. Využití a vkládání prvku do webové stránky přes DOM. Výsledkem je <a class="text-white font-weight-bold" href="http://www.slovicka.cekuj.net/" target=_blank >tato webová stránka</a>. Z uspořádání prvků jistě vidíte, že to pro mě nebylo jednoduché a bylo by co zlepšovat. 
+                        </p>
+                        </div>
+                        <div class="col-lg-5 mr-auto">
+                        <p class="pre-wrap lead">
+                        S využitím NODE.JS a knihovny React se stalo sestavování stránky v Javascriptu značně jendodušší. Tedy až po pochopení fungování reactu. Sestavila jsem si v Reactu frontend pro testovaní CRUD operací. Nejprve jsem frontend napojina na <a class="text-white font-weight-bold" href="https://jsonplaceholder.typicode.com/" target=_blank >veřejné JSON API</a>. Po úspěšném vytvoření vlastního REST api jsem react aplikaci propojila s vlastním backendem. <a class="text-white font-weight-bold" href="https://katulino.github.io/vzkazovnicek/" target=_blank >Můžete otestovat CRUD operace (Create, Edit, Delete).</a> Musíte mít chvíli strpení, než se backend na Heroku probudí.
+                        </p>
+                        <p class="pre-wrap lead">
+                        Během studia webového programování jsem se dostala k užitečné knihovně <a class="text-white font-weight-bold" href="https://getbootstrap.com/" target=_blank >Bootstrap</a>, který pomáha vytvářet html strukturu a responsivní weby. Díky Bootstapu a volně stažené šabloně vznikl i tento web. Jinak bych asi na tvorbu své sebepresentace nebyla ochotna obětovat čas a neměla dost trpělivosti.
+                        </div>
+                  </div>
+                  
+              <div class="text-center">
+                    <h4 class="d-inline-block text-white">BACKEND</h4>
+                </div>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+                <p class="pre-wrap lead">
+                      Na backendu zatím zvládám CRUD a setřídění, filtrování. Za další úkol jsem si dala autorizaci uživatelů a uživatelské přihlašování. Technologie jsem zkoušela Java-SpringBoot, Python Django a node.js. Pro hostování používám Heroku.
+                      </p>
+                    
+            
+        </section>        
         <section class="page-section " id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
@@ -757,7 +1045,7 @@ Přechodné: Ostrava-Kunčice </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.facebook.com/katuki.shimanova"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/kate%C5%99ina-pavl%C3%ADkov%C3%A1-848bb459/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.facebook.com/katuki.shimanova"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/kate%C5%99ina-pavl%C3%ADkov%C3%A1-848bb459/"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.github.com/katulino/"><i class="fab fa-fw fa-github"></i></a>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
